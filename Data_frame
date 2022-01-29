@@ -1,6 +1,8 @@
 from array import *
-stock    = ('APA','ATVI','COP','EOG','HAL','HES','MRO')
-quantity = ("121","51","45","36","128","44","202")
+stock    = ('APA','ATVI','COP','EOG','HAL','HES','MRO', 'OXY', 'SLB', 'XOM')
+quantity = ("121","51","45","36","128","44","202", "106","101","53")
 print(stock[0],'*',quantity[0],'+',stock[1],'*',quantity[1],'+',stock[2],'*',quantity[2],
       stock[3],'*',quantity[3],'+',stock[4],'*',quantity[4],'+',stock[5],'*',quantity[5],
-           stock[6],'*',quantity[6])
+      stock[6],'*',quantity[6], '+',stock[7],'*',quantity[7], '+',stock[8],'*',quantity[8],
+      '+',stock[9],'*',quantity[9])
+
